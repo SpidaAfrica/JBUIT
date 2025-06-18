@@ -1,0 +1,405 @@
+/* Reset defaults and fix layout overflow */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff;
+    color: #222;
+  }
+  
+  .homepage {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .hero .highlight {
+    color: #191970;
+  }
+  
+  .hero p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 20px auto;
+    color: #555;
+  }
+  
+  .cta-btn {
+    padding: 12px 24px;
+    background-color: #191970;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+  }
+  
+  /* Services Section */
+  .services {
+    background: #f9f9f9;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .service-card {
+    background: white;
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+  }
+  
+  .service-card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* About Section */
+  .about {
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    color: #555;
+    font-size: 1.1rem;
+  }
+  
+  .about-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .about-grid div {
+    flex: 1 1 250px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background: #fff;
+  }
+  
+  /* CTA Section */
+  .cta-section {
+    background: #191970;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .cta-section h2 {
+    font-size: 2rem;
+    margin-bottom: 16px;
+  }
+  
+  .cta-section p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .cta-secondary {
+    padding: 12px 24px;
+    background: white;
+    color: #191970;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  /* Services */
+.services {
+    background: #f3f4f6;
+    padding: 80px 20px;
+  }
+  .services h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  .service-grid {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    max-width: 1200px;
+    margin: auto;
+  }
+  .service-card {
+    background: white;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* PricingSection.css */
+.pricing {
+    background: #f9f9f9;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .pricing h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .pricing-card {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 30px 20px;
+    border-radius: 12px;
+    transition: 0.3s ease;
+  }
+  
+  .pricing-card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .pricing-card.highlight {
+    background-color: #191970;
+    color: white;
+  }
+  
+  .price {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .get-started {
+    padding: 10px 20px;
+    margin-top: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #eee;
+  }
+  
+  .highlight-btn {
+    background: white;
+    color: #191970;
+  }
+  
+  .custom-quote {
+    margin-top: 40px;
+  }
+  
+  .quote-btn {
+    padding: 12px 24px;
+    background-color: #191970;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  /* FAQ */
+  .faq {
+    background: #f3f4f6;
+    padding: 80px 20px;
+    max-width: 100%;
+    margin: auto;
+  }
+  .faq h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #111827;
+    color: white;
+    padding: 60px 20px;
+  }
+  .footer-grid {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .footer h3 {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+  }
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  .footer ul li {
+    margin-bottom: 8px;
+  }
+  .socials {
+    display: flex;
+    gap: 10px;
+  }
+
+
+  .pricing-section {
+    background: #f9fafb;
+    padding: 80px 20px;
+    color: #222;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .section-subtext {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 700px;
+    margin: 0 auto 50px;
+  }
+  
+  /*.pricing-grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+  */
+  
+  .plan-card {
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+    transition: 0.3s ease;
+  }
+  
+  .plan-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .plan-card.highlight {
+    background: #191970;
+    color: white;
+    border: 2px solid #191970;
+  }
+  
+  .price {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  
+  .audience {
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 0.95rem;
+  }
+  
+  .features {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  
+  .meta {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    background: #191970;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .plan-card.highlight .btn-primary {
+    background: white;
+    color: #191970;
+  }
+
+  .plan-card.highlight .meta{
+    color: #fff;
+  }
+  
+  .custom-quote {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .quote-btn {
+    background: transparent;
+    color: #191970;
+    border: 2px solid #191970;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  

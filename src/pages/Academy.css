@@ -1,0 +1,126 @@
+.t-training-page {
+    font-family: 'Segoe UI', sans-serif;
+    color: #222;
+    background: #fff;
+  }
+  
+  /* Hero Section */
+  .t-hero {
+    padding: 80px 20px;
+    background: linear-gradient(to bottom right, #1e3a8a, #2563eb);
+    color: white;
+    text-align: center;
+  }
+  .t-hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .t-hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .t-hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+  }
+  .t-btn {
+    padding: 12px 24px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .t-btn.primary {
+    background: white;
+    color: #1e3a8a;
+  }
+  .t-btn.light {
+    background: #fff;
+    color: #1e3a8a;
+  }
+  
+  /* Benefits Section */
+  .t-benefits {
+    padding: 80px 20px;
+    background: #f9f9f9;
+    text-align: center;
+  }
+  .t-benefit-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .t-benefit-card {
+    background: white;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    max-width: 300px;
+  }
+  
+  /* Pricing Section */
+  .t-pricing {
+    padding: 80px 20px;
+    text-align: center;
+  }
+  .t-pricing-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .t-pricing-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 30px;
+    border-radius: 16px;
+    max-width: 300px;
+    text-align: left;
+  }
+  .t-pricing-card.highlight {
+    background: #1e3a8a;
+    color: white;
+    border-color: #1e3a8a;
+  }
+  .t-pricing-card .price {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  .t-pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  .t-pricing-card ul li {
+    margin-bottom: 8px;
+  }
+  
+  /* FAQs */
+  .t-faqs {
+    padding: 80px 20px;
+    background: #f1f1f1;
+  }
+  .t-faqs h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  .t-faq-grid {
+    display: grid;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .t-faq-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  }
+  .t-price{
+    font-size: 3rem;
+  }
