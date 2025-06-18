@@ -9,7 +9,7 @@ const projects = [
     name: "Spida",
     category: "UI/UX",
     description: "AgriTech app",
-    image: "src/assets/ui1.png"
+    image: "/assets/ui1.png"
   },
   {
     id: 2,
