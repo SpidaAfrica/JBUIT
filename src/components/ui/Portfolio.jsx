@@ -2,6 +2,22 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import "./PortfolioPage.css";
+import ui1 from '@/assets/ui1.png';
+import ui2 from '@/assets/ui2.png';
+import ui3 from '@/assets/ui3.png';
+import ui4 from '@/assets/ui4.png';
+import ui5 from '@/assets/ui5.png';
+import ui6 from '@/assets/ui6.png';
+import ui7 from '@/assets/ui7.png';
+import ui8 from '@/assets/ui8.png';
+import ui9 from '@/assets/ui9.png';
+import ui10 from '@/assets/ui10.png';
+import ui11 from '@/assets/ui11.png';
+import ui12 from '@/assets/ui12.png';
+import ui13 from '@/assets/ui13.png';
+import ui14 from '@/assets/ui14.png';
+import ui15 from '@/assets/ui15.png';
+//import ui16 from '@/assets/ui16.png';
 
 const projects = [
   {
@@ -9,105 +25,105 @@ const projects = [
     name: "Spida",
     category: "UI/UX",
     description: "AgriTech app",
-    image: "/assets/ui1.png"
+    image: ui1
   },
   {
     id: 2,
     name: "Workorbor",
     category: "UI/UX",
     description: "Ride Hailing app",
-    image: "src/assets/ui2.png"
+    image: ui2
   },
   {
     id: 3,
     name: "Transit",
     category: "UI/UX",
     description: "Ride Hailing app",
-    image: "src/assets/ui3.png"
+    image: ui3
   },
   {
     id: 4,
     name: "Amani",
     category: "UI/UX",
     description: "Real Estate - propTech app",
-    image: "src/assets/ui4.png"
+    image: ui4
   },
   {
     id: 5,
     name: "Acqskills",
     category: "UI/UX",
     description: "EdTech",
-    image: "src/assets/ui5.png"
+    image: ui5
   },
   {
     id: 6,
     name: "Math With Ben",
     category: "UI/UX",
     description: "EdTech",
-    image: "src/assets/ui6.png"
+    image: ui6
   },
   {
     id: 7,
     name: "Smoothiezee",
     category: "Web App",
     description: "Food & Drinks",
-    image: "src/assets/ui7.png"
+    image: ui7
   },
   {
     id: 8,
     name: "Grace Family Foundation",
     category: "Web App",
     description: "Education Foundation",
-    image: "src/assets/ui8.png"
+    image: ui8
   },
   {
     id: 9,
     name: "SpiTractors",
     category: "Web App",
     description: "AgriTech",
-    image: "src/assets/ui9.png"
+    image: ui9
   },
   {
     id: 10,
     name: "Spi-ecommerce",
     category: "Web App",
     description: "AgriTech",
-    image: "src/assets/ui10.png"
+    image: ui10
   },
   {
     id: 11,
     name: "SpiOptima",
     category: "Web App",
     description: "AgriTech",
-    image: "src/assets/ui11.png"
+    image: ui11
   },
   {
     id: 12,
     name: "Tripoint Travels",
     category: "Web App",
     description: "Travel Agency",
-    image: "src/assets/ui12.png"
+    image: ui12
   },
   {
     id: 13,
     name: "Kaya",
     category: "Mobile App",
     description: "Ride Hailing",
-    image: "src/assets/ui13.png"
+    image: ui13
   },
   {
     id: 14,
     name: "Spida",
     category: "Mobile App",
     description: "E-commerce",
-    image: "src/assets/ui14.png"
+    image: ui14
   },
   {
     id: 15,
     name: "Transit",
     category: "Mobile App",
     description: "Ride Hailing",
-    image: "src/assets/ui15.png"
+    image: ui15
   }
 ];
 
