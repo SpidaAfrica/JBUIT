@@ -23,7 +23,7 @@ export default function HomePage() {
         <p>
           At JBUIT, we craft stunning websites, intuitive mobile apps, world-class UI/UX designs and smart SEO strategies that convert.
         </p>        
-        <a href="https://wa.me/+2348123888508" style={{color: "white", textDecoration: "none"}}>
+        <a href="https://wa.me/+2348122975970" style={{color: "white", textDecoration: "none"}}>
           <button className="cta-btn">
           Get Started <ArrowRight size={18} />
           </button>
@@ -114,7 +114,7 @@ export default function HomePage() {
               <p className="meta">
                 <strong>Timeline:</strong> {plan.timeline}
               </p>
-              <a href="https://wa.me/+2348123888508">
+              <a href="https://wa.me/+2348122975970">
               <button className="btn-primary">Get Started</button>
               </a>
             </div>
@@ -123,7 +123,7 @@ export default function HomePage() {
 
         <div className="custom-quote">
           <p>💬 Need something specific? We’ll tailor a plan based on your needs and budget.</p>
-          <a href="https://wa.me/+2348123888508">
+          <a href="https://wa.me/+2348122975970">
           <button className="quote-btn">Request a Custom Quote</button>
           </a>
         </div>
@@ -168,8 +168,8 @@ export default function HomePage() {
           <div>
             <h3>Contact</h3>
             <p>Phone: +234 812 388 8508</p>
-            <p>Email: hello@jbuit.org</p>
-            <p>WhatsApp: +234 812 388 8508</p>
+            <p>Email: hello@jbuit.org, hello@jbuit.com, jbuittechservices@gmail.com</p>
+            <p>WhatsApp: +234 812 2297 5970</p>
           </div>
           <div>
             <h3>Connect with Us</h3>
