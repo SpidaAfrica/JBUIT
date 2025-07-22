@@ -95,9 +95,9 @@ export default function TrainingLandingPage() {
           </div>
           <div>
             <h3>Contact</h3>
-            <p>Phone: +234 812 388 8508</p>
-            <p>Email: hello@jbuit.org</p>
-            <p>WhatsApp: +234 812 388 8508</p>
+            <p>Phone: +234 812 297 5970</p>
+            <p>Email: hello@jbuit.org, hello@jbuit.com, jbuittechservices.com</p>
+            <p>WhatsApp: +234 812 297 5970</p>
           </div>
           <div>
             <h3>Connect with Us</h3>
